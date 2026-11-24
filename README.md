@@ -18,14 +18,7 @@ A small Retrieval-Augmented Generation (RAG) application for practicing GenAI en
 ## Run locally
 
 ```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-pip install -r requirements.txt
-streamlit run app.py
+uv run document-intelligence
 ```
 
 Paste your API key in the sidebar. Alternatively set `OPENAI_API_KEY` in your environment.
